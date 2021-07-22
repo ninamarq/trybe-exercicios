@@ -12,10 +12,10 @@ h1 {
     line-height: 2em;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    text-decoration: solid;
   }
   p {
     font-family: Verdana;
     font-weight: 600;
     font-size: 48px;
-    text-decoration: white;
   }
