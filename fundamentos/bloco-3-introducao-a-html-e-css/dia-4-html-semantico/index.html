@@ -4,26 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Exercicio 3.4</title>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: tan;
+            }
+
+        .cabecalho {
+            display: block;
+            margin-left: auto;
+            background-color: darksalmon;
+            position: auto;
+        }
+
+        nav {
+            background-color: salmon;
+            border: seashell;
+            display: block;
+        }
+
+        h3 {
+            color: tomato;
+            text-decoration: overline;
+        }
+
+        .artigo {
+            display: block;
+            margin: 20px;
+            box-sizing: border-box;
+            text-align: left;
+        }
+
+    </style>
   </head>
   <body>
-    <!--insira os elementos aqui-->
-    <header>
-        <h1>Soco a 80km/h: Conheça o Stomatopoda</h1>
+    <header class="cabecalho">
+        <h2 id="head">Soco a 80km/h: Conheça o Stomatopoda</h1>
+        <nav>
+            <a href="#head">Página Inicial</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#end">Contato</a>
+        </nav>
     </header>
 
-    <nav>
-        <a>Página Inicial</a>
-        <a>Sobre</a>
-        <a>Contato</a>
-    </nav>
-
-    <article>
-        <h2>Fatos sobre o Stomatopoda</h2>
+    <article class="artigo">
+        <h2 id="sobre">Fatos sobre o Stomatopoda</h2>
         <section>
             <h3>Guia científico</h3>
             <p>
                 Batizados com o nome científico de <i>Odontodactylus scyllarus</i> olhos são testamentos da criatividade da evolução. Todos eles fazem as mesmas coisas básicas - detectam a luz e a convertem em sinais elétricos - mas de uma variedade incrível de maneiras. Existem olhos simples e compostos, lentes bifocais e rochosas, espelhos e fibras ópticas. E há olhos que são tão estranhos, tão constantemente surpreendentes que, após décadas de pesquisa, os cientistas apenas descobriram como funcionam, quanto mais por que evoluíram dessa forma. Para encontrá-los, você precisa dar um mergulho.
-Este é o olho de um camarão mantis - um animal marinho que não é nem mantis nem camarão, mas um parente próximo de caranguejos e lagostas. É um olho composto, feito de milhares de pequenas unidades, cada uma detectando a luz de forma independente. Aqueles na faixa intermediária - a faixa central que você pode ver na foto - são especiais. São eles que deixam o animal ver as cores.
+                Este é o olho de um camarão mantis - um animal marinho que não é nem mantis nem camarão, mas um parente próximo de caranguejos e lagostas. É um olho composto, feito de milhares de pequenas unidades, cada uma detectando a luz de forma independente. Aqueles na faixa intermediária - a faixa central que você pode ver na foto - são especiais. São eles que deixam o animal ver as cores.
             </p>
         </section>
 
@@ -35,17 +65,17 @@ Este é o olho de um camarão mantis - um animal marinho que não é nem mantis 
         </section>
 
         <section>
-            <h3>Selfie do nosso Stomatopoda</h3>
+            <h3 id="end">Selfie do nosso Stomatopoda</h3>
             <img src="794px-odontodactylusscyllarus.jpg" width="300px">
             <p>Bem bonitinho não é?</p>
         </section>
 
-        <aside>
-            <h3>Vídeo Ilustrativo</h3>
-            <a href="https://www.youtube.com/watch?v=E0Li1k5hGBE"><buttom>Clique Aqui</buttom></a>
-        </aside>
     </article>
 
+    <aside class="ladblock">
+        <h3>Vídeo Ilustrativo</h3>
+        <a href="https://www.youtube.com/watch?v=E0Li1k5hGBE"><buttom>Clique Aqui</buttom></a>
+    </aside>
 
   </body>
 </html>
