@@ -1,6 +1,6 @@
 let porcentagem = 700;
 
-if (porcentagem < 0, porcentagem > 100) {
+if (porcentagem < 0 || porcentagem > 100) {
     console.log("Erro");  
 } else if (porcentagem>= 90) {
     console.log("A");
