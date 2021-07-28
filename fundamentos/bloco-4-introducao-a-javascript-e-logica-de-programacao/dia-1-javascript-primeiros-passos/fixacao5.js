@@ -14,15 +14,15 @@ else if (nota < 60) {
 }
 
 switch (status) {
-    case "Parabéns":
+    case 80:
         console.log("Aprovada!");
         break;
     
-    case "Voce está na nossa lista de espera":
+    case 79:
         console.log("Lista Espera");
         break;
     
-    case "Voce foi reprovada(o)":
+    case 0:
         console.log("Reprovadx");
         break;
 }
