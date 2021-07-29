@@ -23,13 +23,22 @@ let numbers = [6, 8, 2, 12, 70, 8, 100, 2, 32, 22];
 //         maiorNumber = number;
 //         }
 // }
-// console.log(maiorNumber);
-let impar = 0;
-let par = 0;
+// console.log(maiorNumber);}
 
+// let impar = 0;
+// let par = 0;
+
+// for (let index = 0; index < numbers.length; index ++) {
+//     if (numbers[index] % 2 === 1) {
+//         impar ++; } else if (numbers % 2 == 1){
+//         impar = 0
+//     }
+// } console.log("Há ",impar, "neste array"); }
+
+let menorNumber = numbers[0];
 for (let index = 0; index < numbers.length; index ++) {
-    if (numbers[index] % 2 === 1) {
-        impar ++; } else if (numbers % 2 == 1){
-        impar = 0
+        if (numbers[index]<menorNumber) {
+            numbers[index] = menorNumber;
+            }
     }
-} console.log("Há ",impar, "neste array"); 
+    console.log(menorNumber);
