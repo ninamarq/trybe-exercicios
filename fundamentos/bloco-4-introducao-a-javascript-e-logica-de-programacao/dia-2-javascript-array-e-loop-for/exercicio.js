@@ -49,3 +49,8 @@ for (let index = 0; index < 25 ; index++ ) {
     array[index] = index+1;
 }
 console.log(array);
+
+let newa = [];
+for (numero of array) {
+    newa.push(numero/2);
+} console.log(newa);
