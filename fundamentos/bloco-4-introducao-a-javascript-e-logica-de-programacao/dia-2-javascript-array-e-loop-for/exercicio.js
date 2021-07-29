@@ -15,12 +15,20 @@ let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 //     console.log("Valor menor ou igual a 20");
 // }
 
-let maiorNumber = 0;
+// let maiorNumber = 0;
+
+// for (let index = 0; index < numbers.length; index ++) {
+//     let number = numbers[index];
+//     if (number > maiorNumber) {
+//         maiorNumber = number;
+//         }
+// }
+// console.log(maiorNumber);
+let impar = 0;
+let par = 0;
 
 for (let index = 0; index < numbers.length; index ++) {
-    let number = numbers[index];
-    if (number > maiorNumber) {
-        maiorNumber = number;
-        }
-}
-console.log(maiorNumber);
+    if (numbers[index] % 2 === 1) {
+        impar ++;
+    }
+} console.log(impar); 
