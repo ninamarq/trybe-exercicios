@@ -1,4 +1,4 @@
-let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let numbers = [6, 8, 2, 12, 70, 8, 100, 2, 32, 22];
 
 // console.log(numbers);
 
@@ -29,6 +29,7 @@ let par = 0;
 
 for (let index = 0; index < numbers.length; index ++) {
     if (numbers[index] % 2 === 1) {
-        impar ++;
+        impar ++; } else if (numbers % 2 == 1){
+        impar = 0
     }
-} console.log(impar); 
+} console.log("Há ",impar, "neste array"); 
