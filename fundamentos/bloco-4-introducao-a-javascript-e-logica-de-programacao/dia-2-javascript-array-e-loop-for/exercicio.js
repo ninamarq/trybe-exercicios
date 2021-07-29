@@ -1,4 +1,4 @@
-let numbers = [6, 8, 2, 12, 70, 8, 100, 2, 32, 22];
+// let numbers = [6, 8, 2, 12, 70, 8, 100, 2, 32, 22];
 
 // console.log(numbers);
 
@@ -35,10 +35,11 @@ let numbers = [6, 8, 2, 12, 70, 8, 100, 2, 32, 22];
 //     }
 // } console.log("Há ",impar, "neste array"); }
 
-let menorNumber = numbers[0];
-for (let index = 0; index < numbers.length; index ++) {
-        if (numbers[index]<menorNumber) {
-            numbers[index] = menorNumber;
-            }
-    }
-    console.log(menorNumber);
+// let menorNumber = numbers[0];
+// for (let index = 0; index < numbers.length; index ++) {
+//         if (numbers[index]<menorNumber) {
+//             numbers[index] = menorNumber;
+//             }
+//     }
+//     console.log(menorNumber);
+
