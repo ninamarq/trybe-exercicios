@@ -11,9 +11,8 @@
 
 
 // receber valor de n
-let nums = 2;
-let i = 0;
-// escrever um * para cada n, linha
+let nums = 5;
+// escrever um * para cada n, coluna
 for (let i = 0; i < nums; i += 1) {
     console.log("*".repeat(nums));
     if (i > nums){
