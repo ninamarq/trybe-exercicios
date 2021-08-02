@@ -1,4 +1,4 @@
-let num = 5;
+let num = 8;
 
 // 1a coluna 
 //     * 0 i
