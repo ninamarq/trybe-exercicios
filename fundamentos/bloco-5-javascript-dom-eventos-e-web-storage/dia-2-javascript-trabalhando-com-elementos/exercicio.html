@@ -134,7 +134,28 @@
       sectionRight.appendChild(lista);
       return listaTag;
     }
-    unList(sLeft);
+    unList(sRight);
+
+    //Adicione 3 tags h3 , todas sendo filhas do main criado no passo 2.
+    function threeHTags(mainTag) {
+      let thirdTitleF = document.createElement('h3');
+      let thirdTitleS = document.createElement('h3');
+      let thirdTitleT = document.createElement('h3');
+      thirdTitleF.className = 'h3t';
+      thirdTitleS.className = 'h3t';
+      thirdTitleT.className = 'h3t';
+
+      thirdTitleF.innerText = 'Olá';
+      thirdTitleS.innerText = 'Tudo bem?';
+      thirdTitleT.innerText = '#VQV';
+      mainTag.appendChild(thirdTitleF);
+      mainTag.appendChild(thirdTitleS);
+      mainTag.appendChild(thirdTitleT);
+      return thirdTitleF + thirdTitleS + thirdTitleT;
+    }
+    threeHTags(mainTag);
+
+
     </script>
   </body>
 </html>
