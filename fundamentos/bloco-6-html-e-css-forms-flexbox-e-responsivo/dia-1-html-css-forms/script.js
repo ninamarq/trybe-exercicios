@@ -6,3 +6,9 @@ for (let i = 0; i < estados.length; i++) {
     optionTag.innerText = estados[i];
     selectTag.appendChild(optionTag);
 }
+
+let buttonTag = document.querySelector('#submit-button');
+
+function submitButton() {
+    
+}
