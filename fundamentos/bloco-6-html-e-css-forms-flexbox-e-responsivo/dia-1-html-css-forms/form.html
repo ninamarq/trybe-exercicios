@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Currículo</h1></header>
+
+    <div class="box">
+        <fieldset class="fields">
+            <label for="name-field">Nome:</label>
+            <input type="text" id="name-field" required maxlength="40">
+            <br>
+            <label for="email-field">Email:</label>
+            <input type="text" id="email-field" maxlength="50" required>
+            <br>
+            <label for="cpf-field">CPF:</label>
+            <input type="text" id="cpf-field" maxlength="11" required>
+            <br>
+            <label for="address-field">Endereço:</label>
+            <input type="text" id="address-field" maxlength="200" required>
+            <br>
+            <label for="city-field">Cidade:</label>
+            <input type="text" id="city-field" maxlength="28" required>
+            <br>
+            <label for="state-field">Estado:</label>
+            <select id="state-field">
+                
+            </select>
+            <br>
+            <label for="type-field">Tipo Moradia:</label>
+            <input type="radio" name="type-field" id="house"> Casa
+            <input type="radio" name="type-field" id="app"> Apartamento
+            <br>
+        </fieldset>
+    </div>
+
+    <div class="box">
+        <fieldset>
+            <label for="resume-curriculum">Resumo do currículo:</label>
+            <textarea maxlength="1000" id="resume-curriculum" required></textarea>
+            <br>
+            <label for="charge">Cargo:</label>
+            <input type="text" id="charge" maxlength="40" required>
+            <br>
+            <label for="">Descrição do Cargo:</label>
+            <input type="text" id="description" maxlength="500" required>
+            <br>
+            <label for="beg-data">Data de início</label>
+            <input type="date" id="beg-data" required>
+            <br>
+        </fieldset>
+    </div>
+
+    <div class="box">
+        <input type="submit" name="submit-button">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

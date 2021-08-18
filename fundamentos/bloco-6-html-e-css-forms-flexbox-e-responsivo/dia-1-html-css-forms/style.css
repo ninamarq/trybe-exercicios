@@ -1,0 +1,22 @@
+input {
+    width: 100%;
+}
+
+input[name="type-field"] {
+    width: auto;
+}
+
+input[name="submit-button"] {
+    width: auto;
+}
+
+body {
+    background-color: rgb(87, 163, 138);
+    text-align: center;
+}
+
+.box {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
