@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
+    <div class="box">
         <fieldset class="fields">
             <label for="name-field">Nome:</label>
             <input type="text" id="name-field" required maxlength="40">
@@ -29,7 +29,31 @@
             <select id="state-field">
                 
             </select>
+
+            <label for="type-field">Tipo Moradia:</label>
+            <input type="radio" name="type-field" id="house"> Casa
+            <input type="radio" name="type-field" id="app"> Apartamento
         </fieldset>
+    </div>
+
+    <div class="box">
+        <fieldset>
+            <label for="resume-curriculum">Resumo do currículo:</label>
+            <textarea maxlength="1000" id="resume-curriculum" required></textarea>
+
+            <label for="charge">Cargo:</label>
+            <input type="text" id="charge" maxlength="40" required>
+
+            <label for="">Descrição do Cargo:</label>
+            <input type="text" id="description" maxlength="500" required>
+
+            <label for="beg-data">Data de início</label>
+            <input type="date" id="beg-data" required>
+        </fieldset>
+    </div>
+
+    <div class="box">
+        <input type="submit"></input>
     </div>
 
     <script src="script.js"></script>
