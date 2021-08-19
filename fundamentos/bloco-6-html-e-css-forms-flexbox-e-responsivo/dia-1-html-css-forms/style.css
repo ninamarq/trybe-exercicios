@@ -13,10 +13,20 @@ input[name="submit-button"] {
 body {
     background-color: rgb(87, 163, 138);
     text-align: center;
+    color: rgb(229, 233, 231);
 }
 
 .box {
     width: 80%;
     margin: auto;
     padding: 20px;
+}
+
+#animation {
+    float: inline-start;
+    width: 50px;
+}
+
+h1 {
+    float: inline-end;
 }
