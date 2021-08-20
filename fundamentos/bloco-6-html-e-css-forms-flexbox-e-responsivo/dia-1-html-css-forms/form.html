@@ -5,12 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Currículo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="./path/to/just-validate.min.js"></script>
 </head>
-<body>
-    <header><h1>Currículo</h1></header>
+<body class="card-panel red lighten-4">
+    <header>
+        <h1 class="heading h1">Currículo</h1>
+    </header>
 
-    <div class="box">
+    <div class="box card-panel red lighten-3">
         <fieldset class="fields">
             <label for="name-field">Nome:</label>
             <input type="text" id="name-field" required maxlength="40">
@@ -29,6 +33,10 @@
             <br>
             <label for="state-field">Estado:</label>
             <select id="state-field">
+            <br>
+            <label for="selfie">Insira uma foto sua:</label>
+            <input class="mb-3" type="file" id="selfie" name="photo">
+            <br>
                 
             </select>
             <br>
@@ -39,7 +47,7 @@
         </fieldset>
     </div>
 
-    <div class="box">
+    <div class="box card-panel red lighten-3">
         <fieldset>
             <label for="resume-curriculum">Resumo do currículo:</label>
             <textarea maxlength="1000" id="resume-curriculum" required></textarea>
@@ -56,9 +64,9 @@
         </fieldset>
     </div>
 
-    <div class="box">
-        <input type="submit" name="submit-button">
-    </div>
+    <form class="box">
+        <button type="submit" id="submit-button">Submeter currículo</button>
+    </form>
 
     <script src="script.js"></script>
 </body>
