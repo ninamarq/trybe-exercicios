@@ -39,9 +39,13 @@ html {
     }
 }
 
-@media screen and (min-width: 801) {
+@media screen and (min-width: 801px) {
     .container {
         background-color: salmon;
-        font-size: 25px;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
