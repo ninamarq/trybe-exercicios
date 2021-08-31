@@ -1,0 +1,51 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+@media screen and (max-width: 800px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        background-color: lemonchiffon;
+        font-size: 25px;
+    }
+
+    .container header {
+        align-self: center;
+        background-color: lightblue;
+    }
+
+    .container .aside-one {
+        align-self: center;
+        background-color: lightgreen;
+    }
+
+    .container .aside-two {
+        align-self: center;
+        background-color: lightpink;
+    }
+
+    .container .main-content {
+        align-self: center;
+        background-color: white;
+    }
+
+    .container footer {
+        align-self: center;
+        background-color: red;
+    }
+}
+
+@media screen and (min-width: 801px) {
+    .container {
+        background-color: salmon;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
