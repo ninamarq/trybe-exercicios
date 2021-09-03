@@ -15,4 +15,4 @@ const hof = (num, callback) => {
   }
   };
 
-console.log(hof(3, sorteio));
+console.log(hof(2, sorteio));
