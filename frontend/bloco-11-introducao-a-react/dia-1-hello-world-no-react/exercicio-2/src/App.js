@@ -4,16 +4,15 @@ import Header from './Header';
 import Footer from './Footer';
 import React from 'react';
 
-const elements = [Header, Content, Footer];
-const classes = elements.map((element) => {
-  return (
-    <div key={element}>{element}</div>
-  )
-});
-
 class App extends React.Component {
   render() {
-  return classes
+  return (
+    <div>
+      <Header key={Header} />
+      <Content key={Content} />
+      <Footer key={Footer} />
+    </div>
+  )
 }}
 
 export default App;
