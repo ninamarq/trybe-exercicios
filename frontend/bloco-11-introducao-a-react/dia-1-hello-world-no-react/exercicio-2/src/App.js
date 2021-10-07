@@ -2,10 +2,17 @@ import './App.css';
 import Content from './Content';
 import Header from './Header';
 import Footer from './Footer';
+import React from 'react';
 
-function App() {
-  const elements = [Header, Content, Footer];
-  return elements.map((element) => element);
-}
+class App extends React.Component {
+  render() {
+  return (
+    <div>
+      <Header key={Header} />
+      <Content key={Content} />
+      <Footer key={Footer} />
+    </div>
+  )
+}}
 
 export default App;
