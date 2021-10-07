@@ -1,0 +1,37 @@
+body {
+  background-color: rgb(31, 73, 128);
+}
+
+.title{
+  color: rgb(255,255 ,255);
+  text-align: center;
+}
+
+.pokemon {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 200px;
+  margin: 5px;
+  padding: 10px;
+  border: solid 5px;
+  border-radius: 10px;
+  border-color: rgb(96, 133, 255);
+  text-align: center;
+}
+
+.pokedex {
+  justify-items: center;
+  width: 1000px;
+  margin: 50px;
+  margin-left: 240px;
+}
+
+.pokedex :hover {
+  border-color: rgb(0, 238, 255);
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+}
+
+.Dragonair {
+  max-width: 900px;
+}
