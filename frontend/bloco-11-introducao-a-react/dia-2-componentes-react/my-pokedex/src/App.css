@@ -3,6 +3,9 @@ body {
 }
 
 .title{
+  font-family: 'Pokemon Solid', sans-serif;
+  font-weight: 200;
+  font-size: 70px;
   color: rgb(255,255 ,255);
   text-align: center;
 }
@@ -30,8 +33,5 @@ body {
   border-color: rgb(0, 238, 255);
   cursor: pointer;
   background-color: rgb(255, 255, 255);
-}
-
-.Dragonair {
-  max-width: 900px;
+  transform: scale(1.05);
 }
