@@ -5,7 +5,7 @@ Neste repositório, será encontrado todos os exercícios e atividades de fixaç
 
 Módulo 1:     Fundamentos de desenvolvimento web ✔️
 
-Módulo 2:     Desenvolvimento Front-end
+Módulo 2:     Desenvolvimento Front-end ✔️
 
 Módulo 3:     Desenvolvimento Back-end
 
