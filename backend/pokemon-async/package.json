@@ -1,0 +1,16 @@
+{
+  "name": "assyncronous-class",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Seu nome",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "readline-sync": "^1.4.10"
+  }
+}
