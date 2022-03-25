@@ -1,0 +1,17 @@
+// ./tsconfig.json
+{
+  "compilerOptions": {
+    "target": "es2016",                                 
+    "module": "commonjs",
+    "rootDir": "./",
+    "outDir": "./dist",
+    "preserveConstEnums": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    // https://stackoverflow.com/questions/40358434/typescript-ts7015-element-implicitly-has-an-any-type-because-index-expression
+    // para corrigir o erro de any type quando passado Conversao[base]
+    "suppressImplicitAnyIndexErrors": true,
+  }
+}
